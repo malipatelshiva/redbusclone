@@ -1,0 +1,251 @@
+
+
+
+  /* Original Header Styles */
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px 0 rgba(24, 22, 22, 0.2);
+  height: 100px;
+ 
+}
+
+.logo-wrapper {
+  width: 35%;
+  text-align: center;
+}
+
+.menu-wrapper {
+  width: 65%;
+  display: flex;
+  align-self: flex-end;
+}
+
+.logo-img {
+  width: 148px;
+  height: auto;
+}
+
+.menu-wrapper ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-wrapper ul li {
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-wrapper ul li:last-child {
+  margin-right: 0;
+}
+
+.menu-wrapper ul li a {
+  text-decoration: none;
+  color: rgb(10, 9, 9);
+}
+
+/* Hover Box Styles */
+.flex-container {
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px;
+  border-bottom: 0;
+ 
+}
+
+.flex-container li {
+  margin-right: 30px;
+  position: relative;
+}
+
+.hover-box {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  min-height: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px 25px;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flex-container li:hover .hover-box {
+  display: block;
+}
+
+.hover-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+}
+
+.hover-box li {
+  padding: 30px;
+}
+
+.hover-box h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.hover-box ul ul {
+  margin-left: 20px;
+}
+
+.flex-container li:hover > .hover-box {
+  display: block;
+}
+
+/* #nav-search-div {
+  border-radius: 100px;
+  padding: 1%;
+  border: 1px solid black;
+  border-color: rgb(243, 243, 227);
+  width: 100%;
+  display: flex;
+  
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header wrapper */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+/* Categories and Brands sections */
+.categories,
+.brands {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.categories h2,
+.brands h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.categories ul,
+.brands ul {
+  list-style: none;
+}
+
+.categories li,
+.brands li {
+  padding: 5px 0;
+}
+
+/* Men section */
+.men {
+  flex: 2;
+  margin: 0 10px;
+}
+
+.men h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.men ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.men li {
+  flex: 1;
+  padding: 5px 10px;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+/* Featured section */
+.featured {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.featured h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.featured ul {
+  list-style: none;
+}
+
+.featured li {
+  padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

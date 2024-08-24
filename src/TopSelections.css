@@ -1,0 +1,16 @@
+.top-selections-header {
+    background-color: #b6e6bd;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-selections-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .top-selections-header p {
+    font-size: 18px;
+  }

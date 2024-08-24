@@ -1,0 +1,39 @@
+body { 
+  margin: 0;
+}
+
+
+.heading {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+ 
+
+
+
+ .flex-container li a {
+  color: #575454; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+ } 
+
+ .flex-container li a:hover {
+  color: #1a6185; /* Change link color on hover */
+} 
+  
+
+
+ 
+
+
+
+
+
+
+
